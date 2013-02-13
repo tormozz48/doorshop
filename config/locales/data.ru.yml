@@ -1,0 +1,14 @@
+ru:
+  product_status:
+    exist: "В наличии"
+    order: "Под заказ"
+    not_exist: "Нет в наличии"
+  order_status:
+    new:  "Новый"
+    payed: "Оплачен"
+    sent: "Отправлен"
+    completed: "Завершен"
+    canceled: "Отменен"
+
+
+

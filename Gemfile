@@ -10,9 +10,16 @@ gem 'formtastic'
 gem 'humanizer'
 gem 'cloudinary'
 gem 'fog'
+gem 'devise-russian'
+gem 'jquery-rails'
 
 group :assets do
+  gem 'twitter-bootstrap-rails'
+  gem 'therubyracer'
+  gem 'less-rails'
+  gem 'execjs', '1.2.13'
   gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -24,22 +31,17 @@ group :development do
   gem 'bullet'
   gem 'hirb'
   gem 'rack-mini-profiler'
-  gem "binding_of_caller"
-  gem "better_errors"
+  gem 'binding_of_caller'
+  gem 'better_errors'
 end
 
 group :test do
   gem 'shoulda-matchers'	
   gem 'factory_girl_rails'
-  gem 'spork', '> 0.9.0.rc'
-  gem 'guard-spork'
-  gem 'guard-rspec'
-  gem 'json_spec'
-  gem "better_errors"
+  gem 'better_errors'
+  gem 'simplecov'
 end
 
 group :production do
   gem 'thin'
 end	
-
-gem 'jquery-rails'
